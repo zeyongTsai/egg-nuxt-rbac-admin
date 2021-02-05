@@ -1,0 +1,42 @@
+{
+  "name": "egg-vue-nuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "debug": "egg-bin debug",
+    "serve": "egg-bin dev",
+    "stop": "egg-scripts stop",
+    "start": "egg-scripts start --daemon",
+    "nuxt-dev": "nuxt",
+    "nuxt-build": "nuxt build",
+    "nuxt-start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "core-js": "^3.6.5",
+    "egg": "^2.29.1",
+    "egg-auths": "^1.0.2",
+    "egg-scripts": "^2.13.0",
+    "egg-sequelize": "^6.0.0",
+    "element-ui": "^2.13.2",
+    "fibers": "^5.0.0",
+    "fuse.js": "^6.4.6",
+    "js-cookie": "^2.2.1",
+    "mysql2": "^2.2.5",
+    "normalize.css": "^8.0.1",
+    "nuxt": "^2.14.6",
+    "sass": "^1.32.4",
+    "sass-loader": "^10.1.1",
+    "screenfull": "^5.1.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/router-extras": "^1.1.1",
+    "egg-bin": "^4.15.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2",
+    "sequelize-cli": "^6.2.0",
+    "svg-sprite-loader": "^5.2.1"
+  }
+}
