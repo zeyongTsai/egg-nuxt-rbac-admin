@@ -47,7 +47,7 @@ module.exports = {
       alias: '概览',
       type: 1, // 菜单
       sort: 0,
-      url: '/', // 菜单url地址
+      url: '/dashboard', // 菜单url地址
       icon: 'el-icon-odometer',
       created_at: new Date(),
       updated_at: new Date()
