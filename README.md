@@ -16,7 +16,7 @@ vi ./database/config.json
 vi ./config/config.default.json
 
 # init database table structure
-npx sequelize-cli db:migrate:undo
+npx sequelize-cli db:migrate
 
 # insert default data
 npx sequelize-cli db:seed:all
